@@ -1,0 +1,169 @@
+body {
+  background-image: url(./imagenes/wallpaper.png);
+  background-size: 300px;
+  background-repeat: repeat;
+  font-family: "Zilla Slab", serif;
+  margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+}
+.presentacion {
+    width: 80%;
+    height: 50px;
+    background-color: #409bcc;
+  margin: auto;
+}
+
+.loguito {
+
+    width: 30%;
+    height: 50px;
+    float: left;
+}
+.totoro {
+  
+    width: 50px;
+}
+
+nav {
+  width: 70%;
+  height: 50px;
+  float: left;
+  line-height: 20px;
+  text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px 0 20px auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 50px;
+    margin: 0;
+  }
+
+.barra .navegacion a:hover {
+  color: #f2b4e0;
+}
+
+h3 {
+  color: #409bcc;
+  font-size: 30px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+h1 {
+  color: #409bcc;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.gallerycontainer {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid: 300px 200px;
+  padding: 15px;
+  grid-gap: 15px;
+}
+
+.imgcontainer {
+  width: 300px;
+  height: 200px;
+  transition: all 0.25s;
+  margin: auto;
+}
+
+.imgcontainer:hover {
+  transform: translateY(-15px);
+}
+
+.imggallery {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid white;
+}
+
+.front {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+}
+
+.front:hover {
+  opacity: 30%;
+}
+
+.back {
+  display: flex;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  opacity: 0%;
+}
+
+.back p {
+  display: flex;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.back:hover {
+  opacity: 100%;
+  background-color: #00000085;
+}
+
+.yacasi {
+  display: inline-flex;
+  margin: 30px 50px 0 50px;
+}
+
+.pie {
+  width: 30%;
+  height: 240px;
+  display: block;
+  margin: 30px 20px 0 20px;
+  color: #409bcc;
+  background-color: white;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.mapa {
+  width: 100%;
+  height: 30%;
+}
+
+.icon {
+  width: 25%;
+  justify-content: space-around;
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+.imgfooter {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.copy {
+  font-family: "Zilla Slab", serif;
+  background-color: #409bcc;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+  color: white;
+}
